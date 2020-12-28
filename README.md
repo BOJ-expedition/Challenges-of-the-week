@@ -34,7 +34,7 @@ Score
 -----
 | 이름 | 게으름 지수 |
 |:------:|:-----:|
-| 유리한 | 측정불가 |
+| 유리한 | Unmeasurable |
 | 뿌요 | Impossible |
 | 점박 | Invisible |
 | 읔동웹땔깜 | Invincible |
