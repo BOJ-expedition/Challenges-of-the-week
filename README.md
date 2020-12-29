@@ -23,7 +23,7 @@
 코드 상단에 문제 링크 주소 넣어주셈.
 
 ```swift
-// 문제 링크
+// 두 개 뽑아서 더하기
 // https://programmers.co.kr/learn/courses/30/lessons/68644
 ```
 
