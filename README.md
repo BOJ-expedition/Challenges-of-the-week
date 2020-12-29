@@ -47,9 +47,9 @@ Score
 
 | 제목 | 난이도(or 정답비율) |
 |:------:|:-----:|
-| [그림](https://www.acmicpc.net/problem/1926) | 44.149% |
-| [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | 35.470% |
-| [히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549) | 25.439% |
+| [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644) | 순한맛 |
+| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 순한맛 |
+| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | 중간맛 |
 
 
 
