@@ -1,7 +1,7 @@
 제출코드
 // https://www.acmicpc.net/source/24696686
 
-package Bbuyo;
+package bbuyo.BOJ;
 
 import java.io.*;
 
