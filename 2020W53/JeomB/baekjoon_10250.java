@@ -27,6 +27,6 @@ class Main {
             System.out.println(arr[i]);
         }
             //    bf.close();
-        sc.close();
+        sc.close(); 
     }
 }
