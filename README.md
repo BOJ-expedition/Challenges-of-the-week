@@ -50,8 +50,8 @@ Score
 | 제목 | 난이도(or 정답비율) |
 |:------:|:-----:|
 | [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644) | 맹맛 |
-| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 순한맛 |
 | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | 순한맛 |
+| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 중간맛 |
 
 
 
