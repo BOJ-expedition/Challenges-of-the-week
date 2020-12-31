@@ -11,7 +11,9 @@
 3. 풀이에 실패하면 답을 보지 마시고 팀원들에게 알려주세요!
 <br><br>
 
-
+[문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki)
+=======
+문제 해설은 도전과제가 끝난 다음주에 올라옵니다.
 
 금주의 도전과제
 ===========
@@ -53,5 +55,5 @@ Score
 | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | 순한맛 |
 | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 중간맛 |
 
-
+[문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2020W53)
 
