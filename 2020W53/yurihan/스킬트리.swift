@@ -14,7 +14,7 @@ func solution(_ skill:String, _ skill_trees:[String]) -> Int {
             guard let orderNum = lookup[$0] else {return}
             orders.append(orderNum)
         }
-        // "BACDE" -> [1,0,2] / "CBADF" -> [0,1,2] / "AECB" -> [0,1]
+        // "BACDE" -> [1,0,2] / "CBADF" -> [0,1,2] / "AECB" -> [0,1] / "BDA" -> [1,2]
                                     
         for (o,e) in orders.enumerated()
         {
@@ -22,6 +22,7 @@ func solution(_ skill:String, _ skill_trees:[String]) -> Int {
             // "BACDE" -> [1,0,2] -> [(0,1),(1,0),(2,2)] -> false
             // "CBADF" -> [0,1,2] -> [(0,0),(1,1),(2,2)] -> true
             // "AECB" -> [0,1] -> [(0,0),(1,1)] -> true
+            // "BDA" -> [1,2] -> [(0,1),(1,2)] -> false
         }
         return ret + 1
     }
