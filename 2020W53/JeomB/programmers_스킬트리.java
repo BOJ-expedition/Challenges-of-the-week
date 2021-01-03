@@ -13,8 +13,8 @@ class Main {
                     if (skill_trees[i].charAt(j) == skill_trees[i].charAt(j + 1)) { num1 = false; }
                 }
 
-                if(arr.size()==0){ answer+=1; break;}
-                if(skill.length()==1){ answer+=1; break;}
+                if(arr.size()==0){ answer+=1;}
+                if(skill.length()==1){ answer+=1 ;}
 
                 if (num1) {
                     for (int j = 0; j < arr.size() - 1; j++) {
@@ -22,6 +22,8 @@ class Main {
                         if (arr.get(j + 1) != -1 && arr.get(j) > arr.get(j + 1)) { break; }
                         if (j == arr.size() - 2) { answer += 1; }
                     }
+                        if(arr.size()==0){ answer+=1;}
+                        if(skill.length()==1){ answer+=1 ;}
                 }
             }
             return answer;
