@@ -37,12 +37,12 @@ Score
 -----
 | 이름 | 게으름 지수 |
 |:------:|:-----:|
-| 유리한 | Unmeasurable |
-| 뿌요 | Impossible |
-| 점박 | Invisible |
-| 읔동웹땔깜 | Invincible |
-| 찐 | Incredible |
-| 혜성 | Irreversible |
+| 유리한 | - |
+| 뿌요 | 0 |
+| 점박 | 0 |
+| 읔동웹땔깜 | 0 |
+| 찐 | 0 |
+| 혜성 | 2000 (필 2 + 추 0) |
 | ? | ? |
 
 
