@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class programmers_위장 {
+public class programmers_위장 { 
     public static void main(String[] args) {
         String[][] arr = new String[][]{{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
         System.out.println(solution(arr));
