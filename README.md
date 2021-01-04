@@ -37,13 +37,24 @@ Score
 -----
 | 이름 | 게으름 지수 |
 |:------:|:-----:|
-| 유리한 | - |
 | 뿌요 | 0 |
 | 점박 | 0 |
 | 읔동웹땔깜 | 0 |
 | 찐 | 0 |
 | 혜성 | 2000 (필 2 + 추 0) |
 | ? | ? |
+
+
+2021년 첫주 - 2021W01
+--------------
+
+| 제목 | 난이도(or 정답비율) |
+|:------:|:-----:|
+| [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | 순한맛 |
+| [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | 순한맛 |
+| [중간점검](https://programmers.co.kr/learn/courses/30/lessons/60062) | 중간맛 |
+
+[문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2021W01)
 
 
 2020년 마지막 주 - 2020W53
@@ -53,7 +64,7 @@ Score
 |:------:|:-----:|
 | [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644) | 맹맛 |
 | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | 순한맛 |
-| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 중간맛 |
+| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 순한맛 |
 
 [문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2020W53)
 
