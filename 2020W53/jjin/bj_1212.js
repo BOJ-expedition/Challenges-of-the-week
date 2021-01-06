@@ -1,31 +1,31 @@
 // https://www.acmicpc.net/submit/1212
 
-//아직 못품
-const input  = [3,1,4];
-
-let arr = [];
-for(let i=0; i<input.length; i++){
-    const v = +input[i];
-    switch(v){
-        case 0 : arr.push("000"); break;
-        case 1 : arr.push("001"); break;
-        case 2 : arr.push("010"); break;
-        case 3 : arr.push("011"); break;
-        case 4 : arr.push("100"); break;
-        case 5 : arr.push("101"); break;
-        case 6 : arr.push("110"); break;
-        case 7 : arr.push("111"); break;
+let input = "314"
+let arr = input.toString().trim().split("");
+let toBitArr = (num) => {
+    let number = num;
+    let arr = new Array(3);
+    for(let i=0; i<arr.length; i++){
+        if(number == 0){
+            arr[i] = 0
+        }
+        else{
+            arr[i] = number%2
+            number = Math.floor(number/2);
+        }
     }
+    return arr.reverse();
 }
-
-let last = arr[arr.length-1];
-
-if(arr[0][0] == "0") arr[0] = arr[0].substring(1);
-if(arr[0][0] == "0") arr[0] = arr[0].substring(1);
-if(last[last.length-1] == "0") last = last.substring(0,last.length-1);
-if(last[last.length-1] == "0") last = last.substring(0,last.length-1);
-arr[arr.length-1] = last;
-console.log( arr.join("") )
+let number = "";
+for(let i=0; i<arr.length; i++){
+    let bit = toBitArr(arr[i]);
+    if(i==0){
+        if(bit[i]==0)bit.shift();
+        if(bit[i]==0)bit.shift();
+    }
+    number += bit.join("");
+}
+console.log(number)
 
 /*
 timeout
