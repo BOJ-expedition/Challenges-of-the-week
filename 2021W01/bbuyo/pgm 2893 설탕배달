@@ -1,0 +1,56 @@
+// 푼거 아님 풀었던 흔적임
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        solution(6);
+    }
+
+    public static int[] solution(int n) {
+        List<Integer> list = new ArrayList<>();
+        int cnt = 0; int _p = 1;
+        for (int i=1; i<=n; i++) {
+            cnt += _p;
+            ++_p;
+        }
+        int[] result = new int[cnt];
+        int start = 1;
+        int p_end = n*2+(n-3);
+        int p_go = n*2+(n-2);
+
+        for (int i=0; i<n; i++) {
+            int[] eachArray = new int[i+1];
+
+            if (i==0) {
+                eachArray[i] = start;
+            } else if (i==n-1) {
+                for (int j=0; j<n; j++) {
+                    eachArray[j] = n+j;
+                }
+            } else {
+                eachArray[0] = ++start;
+                for (int k=1; k<eachArray.length; k++) {
+                    if (k==eachArray.length-1) {
+                        eachArray[k] = p_end;
+                        --p_end;
+                        break;
+                    }
+                    eachArray[k] = p_go;
+                    ++p_go;
+                }
+            }
+            for (int x : eachArray) {
+                list.add(x);
+            }
+        }
+        for (int m=0; m<list.size(); m++) {
+            System.out.print(list.get(m)+" ");
+            result[m] = list.get(m);
+        }
+
+        return result;
+    }
+}
