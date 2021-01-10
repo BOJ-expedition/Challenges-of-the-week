@@ -1,11 +1,12 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42860
+// https://programmers.co.kr/learn/courses/30/lessons/68645
 // 풀긴 풀엇는데 혼자 똥꼬쇼하다가 헤성좌가 좌표로 보는 힌트 줘서 풀엇음. 혼자 힘으로 푼 건 아님...
 
 let N = 6;
 
-const factorial = (number) => {
-    if(number === 0)return 0;
-    return number + factorial(--number);
+const sigma = (to ,from) => {
+    if(!from)from=0;
+    if(to === from)return from;
+    return to + sigma(--to);
 };
 const arr = new Array(N).fill(null).map( elem => new Array());
 
@@ -14,7 +15,7 @@ let from = 0;
 let usage = 0;
 let y=-1, x=0;
 
-for(let i=1; i<=factorial(N); i++){
+for(let i=1; i<=sigma(N); i++){
     if(usage === 0){        //좌측 내려오는 대각선
         y++;
     }
@@ -43,4 +44,4 @@ for(let i=0; i<arr.length; i++){
         rst.push(arr[i][j]);
     }
 }
-// console.log(rst);
+console.log(rst);
