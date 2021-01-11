@@ -37,12 +37,24 @@ Score
 -----
 | 이름 | 게으름 지수 |
 |:------:|:-----:|
-| 뿌요 | 0 |
-| 점박 | 0 |
-| 읔동웹땔깜 | 0 |
-| 찐 | 0 |
-| 혜성 | 2000 (필 2 + 추 0) |
-| ? | 4000 (추 4) |
+| 뿌요 | 3000 |
+| 점박 | 6000 |
+| 읔동웹땔깜 | 3000 |
+| 찐 | 0 (의문의 2000)|
+| 혜성 | 5000 |
+| ? | 8000  |
+
+
+2021년 둘째주 - 2021W02
+--------------
+
+| 제목 | 난이도(or 정답비율) |
+|:------:|:-----:|
+| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | 순한맛 |
+| [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | 순한맛 |
+| [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979) | 중간맛 |
+
+[문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2021W02)
 
 
 2021년 첫주 - 2021W01
@@ -52,7 +64,7 @@ Score
 |:------:|:-----:|
 | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | 순한맛 |
 | [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | 순한맛 |
-| [중간점검](https://programmers.co.kr/learn/courses/30/lessons/60062) | 중간맛 |
+| [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) | 중간맛 |
 
 [문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2021W01)
 
