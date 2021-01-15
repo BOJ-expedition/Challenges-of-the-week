@@ -1,11 +1,11 @@
 // https://www.acmicpc.net/problem/2231
 
 // import fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString();
+// const M = fs.readFileSync("/dev/stdin").toString();
 
-const M:number = +"216".toString().trim()
+const M:number = +"1234".toString().trim()
 
-const NtoM = (N:number):number=>{
+const NtoM = (N:number) : number=>{
     const num : number = N;
     const arr:number[] = N.toString().split("").map(elem=>+elem);
 
@@ -19,17 +19,23 @@ const NtoM = (N:number):number=>{
 
 const MtoN = (M:number) : number => {
     let NArr:number[] = M.toString().split("").map(elem=>+elem);
-    let firstValue = (NArr[0]-1) * Math.pow(10, NArr.length-1);
-    let rst = 0;
-    for(let i=firstValue; i<M; i++){
-        const Nv=NtoM(i)
+    let firstValue;
+
+    if ( NArr[0]-1 > 0 )
+        firstValue = (NArr[0]-1) * Math.pow(10, NArr.length-1);
+    else
+        firstValue = 9 * Math.pow(10, NArr.length-2);
+
+    let N = 0;
+    for(let n=firstValue; n<M; n++){
+        const Nv=NtoM(n)
         if(Nv === M){
-            rst = i;
+            N = n;
             break;
         }
     }
 
-    return rst;
+    return N;
 }
 
 console.log(MtoN(M))
