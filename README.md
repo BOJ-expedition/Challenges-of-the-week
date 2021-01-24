@@ -49,9 +49,9 @@ Score
 
 | 제목 | 난이도(or 정답비율) |
 |:------:|:-----:|
-| [ ]( ) | 맛 (Lv.) |
-| [ ]( ) | 맛 (Lv.)|
-| [ ]( ) | 맛 (Lv.)|
+| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 맹맛 |
+| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 순한맛 |
+| [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | 중간맛 |
 
 [문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2021W04)
 
