@@ -49,9 +49,9 @@ Score
 
 | 제목 | 난이도(or 정답비율) |
 |:------:|:-----:|
-| [ ]( ) | 맛 (Lv.2) |
-| [ ]( ) | 맛 (Lv.2)|
-| [ ]( ) | 맛 (Lv.3)|
+| [ ]( ) | 맛 (Lv.) |
+| [ ]( ) | 맛 (Lv.)|
+| [ ]( ) | 맛 (Lv.)|
 
 [문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2021W04)
 
