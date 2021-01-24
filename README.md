@@ -44,6 +44,16 @@ Score
 | 점박 | 9000 |
 | ? | 15000  |
 
+2021년 넷째주 - 2021W04
+--------------
+
+| 제목 | 난이도(or 정답비율) |
+|:------:|:-----:|
+| [ ]( ) | 맛 (Lv.2) |
+| [ ]( ) | 맛 (Lv.2)|
+| [ ]( ) | 맛 (Lv.3)|
+
+[문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2021W04)
 
 2021년 셋째주 - 2021W03
 --------------
@@ -54,6 +64,7 @@ Score
 | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | 순한맛 (Lv_2)|
 | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | 중간맛 (Lv_3)|
 
+[문제 해설](https://github.com/BOJ-expedition/Challenges-of-the-week/wiki/2021W03)
 
 2021년 둘째주 - 2021W02
 --------------
