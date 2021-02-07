@@ -1,8 +1,8 @@
 // https://www.acmicpc.net/problem/2675
 
 
-import fs = require("fs");
-const input = fs.readFileSync("/dev/stdin").toString();
+// import fs = require("fs");
+// const input = fs.readFileSync("/dev/stdin").toString();
 
 const solution = (input:string) :void=>{
     const arr : string[][] = input.trim().split("\n").map( elem => elem.trim().split(" "));
@@ -29,7 +29,7 @@ const solution = (input:string) :void=>{
     console.log(str.trim());
 }
 
-solution(input)
+// solution(input)
 
 solution(`2
 3 ABC
