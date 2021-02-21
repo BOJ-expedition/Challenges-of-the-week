@@ -14,8 +14,8 @@ function solution(n, arr1, arr2){
         return string.length === n ? string.join("") : new Array( n-string.length).fill(0).concat(string).join("")
     }
 
-    const array1 = arr1.map( elem=>toBit(elem))
-    const array2 = arr2.map( elem=>toBit(elem))
+    const array1 = arr1.map(toBit)
+    const array2 = arr2.map(toBit)
 
     let ret = [];
 
