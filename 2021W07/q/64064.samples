@@ -1,0 +1,5 @@
+[
+  [ [ "frodo", "fradi", "crodo", "abc123", "frodoc" ], [ "fr*d*", "abc1**" ], 2 ],
+  [ [ "frodo", "fradi", "crodo", "abc123", "frodoc" ], [ "*rodo", "*rodo", "******" ], 2 ],
+  [ [ "frodo", "fradi", "crodo", "abc123", "frodoc" ], [ "fr*d*", "*rodo", "******", "******" ], 3 ]
+]
