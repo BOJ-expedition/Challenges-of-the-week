@@ -20,15 +20,3 @@ def solution(n, data):
     else:
       c += 1
   return c
-def solution(n, data):
-  def f(x, i, j):
-    if i == j:
-      print(x)
-      yield x
-    else:
-      for k in range(i, j + 1):
-        y = list(x)
-        y[i], y[k] = y[k], y[i]
-        yield from f(y, i + 1, j)
-        y[i], y[k] = y[k], y[i]
-  print(list(f([1,2,3], 0, 2)))
