@@ -45,6 +45,17 @@ Score
 | 읔동웹땔깜 | 28,000 |
 | ? | 28,000  |
 
+2021년 여덟째주 - 2021W08
+--------------
+
+| 제목 | 난이도(or 정답비율) |
+|:------:|:-----:|
+| [이상한문자만들기](https://programmers.co.kr/learn/courses/30/lessons/12930) | 맹맛 |
+| [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | 순한맛 |
+| [예상대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | 순한맛 |
+| [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) |  |
+
+
 2021년 일곱째주 - 2021W07
 --------------
 
