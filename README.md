@@ -53,7 +53,7 @@ Score
 | [이상한문자만들기](https://programmers.co.kr/learn/courses/30/lessons/12930) | 맹맛 |
 | [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | 순한맛 |
 | [예상대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | 순한맛 |
-| [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) |  |
+| [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) | 매운맛 ( new! )|
 
 
 2021년 일곱째주 - 2021W07
