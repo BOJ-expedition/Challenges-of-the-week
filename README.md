@@ -45,6 +45,17 @@ Score
 | 읔동웹땔깜 | 28,000 |
 | ? | 28,000  |
 
+2021년 아홉번째주 - 2021W09
+--------------
+
+| 제목 | 난이도(or 정답비율) |
+|:------:|:-----:|
+| [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943) | 맹맛 |
+| [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | 순한맛 |
+| [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | 순한맛 |
+| [멀리 뛰기](https://programmers.co.kr/learn/courses/30/lessons/12914) | 보통맛 |
+
+
 2021년 여덟째주 - 2021W08
 --------------
 
